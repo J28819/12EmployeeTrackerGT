@@ -1,0 +1,25 @@
+{
+  "name": "12employeetrackergt",
+  "version": "1.0.0",
+  "description": "Employer Tracker Application -- Manager your company from Node!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J28819/12EmployeeTrackerGT.git"
+  },
+  "keywords": [
+    "DataBase",
+    "Node",
+    "Employee",
+    "Management"
+  ],
+  "author": "J28819",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/J28819/12EmployeeTrackerGT/issues"
+  },
+  "homepage": "https://github.com/J28819/12EmployeeTrackerGT#readme"
+}
