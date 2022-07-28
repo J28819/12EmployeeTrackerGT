@@ -4,7 +4,10 @@
   "description": "Employer Tracker Application -- Manager your company from Node!!",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "databasec": "mysql -u root -p asdf123$ source /Users/ismaelleal/Downloads/GTBootcamp/GitClass/Projects/12EmployeeTrackerGT/db/schema.sql",
+    "start": "node index.js",
+    "seeds": ""
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/J28819/12EmployeeTrackerGT/issues"
   },
-  "homepage": "https://github.com/J28819/12EmployeeTrackerGT#readme"
+  "homepage": "https://github.com/J28819/12EmployeeTrackerGT#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "inquirer": "^6.5.0",
+    "mysql2": "^2.3.3"
+  }
 }
