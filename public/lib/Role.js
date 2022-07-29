@@ -20,6 +20,17 @@ class Role {
         
             }
         }
+
+
+        updateRole(arg1){
+          // console.log(arg1)
+          return {
+            type: 'list',
+            name: 'NewRole',
+            message: 'Chose the New Role from the list',
+            choices: arg1,
+           }
+         }
         
         getSalary(){
           return {
