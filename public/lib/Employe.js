@@ -10,7 +10,7 @@ class Employee {
 getfirst_name(){
   return  {
       type: 'input',
-      name: 'name',
+      name: 'first_name',
       message: 'Whats your first Name?',
       validate(value) {
         const pass = value;
@@ -25,7 +25,7 @@ getfirst_name(){
 getlast_name(){
   return  {
       type: 'input',
-      name: 'name',
+      name: 'last_name',
       message: 'Whats your Last Name?',
       validate(value) {
         const pass = value;
@@ -37,26 +37,36 @@ getlast_name(){
     }
 }
 
-getrole_id(){
-  return  {
-      type: 'input',
-      name: 'name',
-      message: 'Whats your Role?',
-      validate(value) {
-        const pass = value;
-        if (value.length >= 2) {
-          return true;
-        }
-        return 'Please add your name to you can continue with the next question';
-      }
-    }
-}
+// getrole_id(){
+//   return  {
+//       type: 'input',
+//       name: 'name',
+//       message: 'Whats your Role?',
+//       validate(value) {
+//         const pass = value;
+//         if (value.length >= 2) {
+//           return true;
+//         }
+//         return 'Please add your name to you can continue with the next question';
+//       }
+//     }
+// }
+
+getrole_id(Rolearg1){
+  //console.log(Rolearg1)
+  return {
+    type: 'list',
+    name: 'Role_id',
+    message: 'Chose the Role from the list',
+    choices: Rolearg1,
+   }
+ }
 
 
 getmanager_id(){
   return  {
       type: 'input',
-      name: 'name',
+      name: 'Manager_name',
       message: 'Whats your Manager Name?',
       validate(value) {
         const pass = value;
@@ -76,6 +86,16 @@ updateEmployee(Emparg1){
     message: 'Chose the Role in the list to be updated',
     choices: Emparg1,
    }
+ }
+
+ updateManager(MngrList){
+  return {
+    type: 'list',
+    name: 'UpdateManager',
+    message: 'Chose the New Manager in the list to be updated',
+    choices: MngrList,
+   }
+
  }
 
 

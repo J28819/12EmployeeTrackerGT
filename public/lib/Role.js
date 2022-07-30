@@ -15,9 +15,8 @@ class Role {
                 if (value.length >= 2) {
                   return true;
                 }
-                return (`Please add your Title`);
+                return (`Please add your Title for this Role`);
               }
-        
             }
         }
 
@@ -39,9 +38,9 @@ class Role {
                message: 'Type your Salary',
                validate(value) {
                  const pass = value;
-                 console.log(typeof pass)
+                 //console.log(typeof pass)
                  if (isNaN(value)) {
-                  return (`Please add your Salary`);
+                  return (`Please set the Salary`);
                  }
                  return true;
                  
@@ -51,11 +50,11 @@ class Role {
          }
 
          getDepartmentID(arg1){
-          console.log(arg1)
+          //console.log(arg1)
           return {
             type: 'list',
             name: 'Department',
-            message: 'Chose the Department from the list',
+            message: 'Chose the Department assignated to this Role',
             choices: arg1,
            }
          }
