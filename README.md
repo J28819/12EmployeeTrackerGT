@@ -1,6 +1,24 @@
 # 12EmployeeTrackerGT
 Employee Tracker App
 
+```
+*****************************************************/
+  _ ____      __                _                   
+ / |___ \    /__\ __ ___  _ __ | |_   _  ___  ___   
+ | | __) |  /_\| '_ ` _ \| '_ \| | | | |/ _ \/ _ \  
+ | |/ __/  __| | | | | | |_) | | |_| |  __/  __/  
+ |_|_____| \__/|_| |_| |_| .__/|_|\__, |\___|\___|  
+                         |_|      |___/             
+  _____                _                 ___  _____ 
+ /__   \_ __ __ _  ___| | _____ _ __    / _ \/__   \
+   / /\/ '__/ _` |/ __| |/ / _ \ '__|  / /_\/  / /\/
+  / /  | | | (_| | (__|   <  __/ |    / /_\\  / /   
+  \/   |_|  \__,_|\___|_|\_\___|_|    \____/  \/    
+                                              
+*****************************************************/   
+
+```
+
 
 ## User Story
 ```
@@ -92,37 +110,55 @@ THEN I am prompted to select an employee to update and their new role and this i
 
  ## Screenshoots
 
+
  ## View All Departments
+ ![My animated logo](./public/img/viewalldpt.png)
  
  ## View All Employees
+ ![My animated logo](./public/img/viewallemployees.png)
  
  ## View All Roles
+ ![My animated logo](./public/img/ViewAllRoles.png)
  
- ## Add Department","Add Employe
+ ## Add Department"
+ ![My animated logo](./public/img/AddDepartments.png)
  
  ## Add Role
+ ![My animated logo](./public/img/AddRole.png)
+ ![My animated logo](./public/img/AddRole2.png)
+
+ ## Add Employee
+ ![My animated logo](./public/img/AddEmployee.png)
+ ![My animated logo](./public/img/AddEmployee2.png)
  
  ## Update Employee Role
+ ![My animated logo](./public/img/UpdateEmployeeRole.png)
  
- ## Update employee Manager
+ ## Update Employee Manager
+ ![My animated logo](./public/img/UpdateEmployeeManager.png)
  
  ## Total Utilized Budget
+ ![My animated logo](./public/img/TotalBudgetDepartment.png)
  
- ## View employees by department
+ ## View Employees by department
+ ![My animated logo](./public/img/ViewEmployeesByDepartment.png)
  
- ## View employees by Manager
+ ## View Employees by Manager
+ ![My animated logo](./public/img/ViewEmployeesByManager.png)
 
 
-  
-Overview
-![My animated logo](./public/img/overview.png)
+## Google Drive Video Screensify
 
-Overview2
-![My animated logo](./public/img/overview2.png)
+## First Part Video
+Adding Departments, Roles and Employees and View All Departments, Roles adn Employees and Joins between tables Keys
+![My animated logo](./public/img/Demo1stPart.png)
 
-## Google Drive Video
+https://drive.google.com/file/d/1jsnIRITcKySk5Jk6h6SBnqChb4PwZqEF/view
 
+## Second Part Video
+![My animated logo](./public/img/Demo2ndPart.png)
 
+https://drive.google.com/file/d/1JSVtyOZ-JBsfUTlnN-gnkUi4tnnTZXYQ/view
 
 
 ## Conclusion 
