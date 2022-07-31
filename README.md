@@ -141,10 +141,10 @@ THEN I am prompted to select an employee to update and their new role and this i
  ![My animated logo](./public/img/TotalBudgetDepartment.png)
  
  ## View Employees by department
- ![My animated logo](./public/img/ViewEmployeesByDepartment.png)
+ ![My animated logo](./public/img/VEByDepartment.png)
  
  ## View Employees by Manager
- ![My animated logo](./public/img/ViewEmployeesByManager.png)
+ ![My animated logo](./public/img/VEByManager.png)
 
 
 ## Google Drive Video Screensify
