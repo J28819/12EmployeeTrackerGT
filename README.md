@@ -45,7 +45,7 @@ npm install --save express
 mysql> source ./db/schema.sql // to create the database in mysql
 mysql> source ./db/seeds.sql // to mock data
 node index.js =>  MySQL Source ./db/Schema.sql => MySQL ./dbSource Schema.sql
-
+update Index.js add the password for your MySQL database
 ```
 
 2. Follow the instructions in visual code

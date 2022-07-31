@@ -170,8 +170,8 @@ function addRole(){
   .then((answers) => {
     const getindex = (element) => element === answers.Department;
     let indexval3 = Departmentvalues.findIndex(getindex);
-    console.log(indexval3)
-    console.log(Departmentvalues)
+    //console.log(indexval3)
+    //console.log(Departmentvalues)
        db.query('INSERT INTO Role (id, title, salary, department_id) VALUES (?,?,?,?)', [uuid, answers.Title,answers.Salary,indexval3],(error, results) => {
      if (error) console.log(error);
      });
@@ -218,8 +218,8 @@ function addEmployee(){
   .then((answers) => {
     const getindex = (element) => element === answers.Role_id;
     let indexval2 = Rolevalues.findIndex(getindex);
-    console.log(indexval2)
-    console.log(Rolevalues)
+    //console.log(indexval2)
+    //console.log(Rolevalues)
     db.query('INSERT INTO employee (id, first_name, last_name, role_id, manager_id, manager_name ) VALUES (?,?,?,?,?,?)', [uuid, answers.first_name, answers.last_name, indexval2, uuid, answers.Manager_name],(error, results) => {
      if (error) console.log(error);
      });
@@ -239,7 +239,7 @@ function UpdateRole(){
    const getindex = (element) => element === answers.NewRole;
     let indexval = Rolevalues.findIndex(getindex);
     var sql = `UPDATE employee SET role_id = ${indexval} WHERE first_name = '${answers.UpdateEmployee}'`;
-    console.log(sql)
+    //console.log(sql)
     db.query(sql, function (err, results) {
      if(err){
       console.log(err)
@@ -261,7 +261,7 @@ function UpdateEmployeeMngr(){
    const getindex = (element) => element === answers.UpdateManager;
     let indexval = Employeemanagers.findIndex(getindex);
     var sql = `UPDATE employee SET manager_name = '${answers.UpdateManager}' WHERE first_name = '${answers.UpdateEmployee}'`;
-    console.log(sql)
+    //console.log(sql)
     db.query(sql, function (err, results) {
      if(err){
       console.log(err)

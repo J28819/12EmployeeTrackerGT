@@ -83,7 +83,7 @@ updateEmployee(Emparg1){
   return {
     type: 'list',
     name: 'UpdateEmployee',
-    message: 'Chose the Role in the list to be updated',
+    message: 'Chose the Employee in the list to be updated',
     choices: Emparg1,
    }
  }
