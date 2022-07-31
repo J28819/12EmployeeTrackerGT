@@ -26,7 +26,7 @@ npm init
 npm install --save express
 mysql> source ./db/schema.sql // to create the database in mysql
 mysql> source ./db/seeds.sql // to mock data
-node index.js
+node index.js =>  MySQL Source ./db/Schema.sql => MySQL ./dbSource Schema.sql
 
 ```
 
@@ -59,7 +59,7 @@ node index.js
 - View employees by manager. ----OK
 - View employees by department. ----OK
 - View the total utilized budget of a department—in other words, the combined salaries of all employees in that department. -----OK
-- Delete departments, roles, and employees.
+- Delete departments, roles, and employees. ----- Future implementation
 
 
 ## Acceptance Criteria
@@ -90,7 +90,30 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ![My animated logo](./public/img/tables.png)
 
-## Screenshoots
+ ## Screenshoots
+
+ ## View All Departments
+ 
+ ## View All Employees
+ 
+ ## View All Roles
+ 
+ ## Add Department","Add Employe
+ 
+ ## Add Role
+ 
+ ## Update Employee Role
+ 
+ ## Update employee Manager
+ 
+ ## Total Utilized Budget
+ 
+ ## View employees by department
+ 
+ ## View employees by Manager
+
+
+  
 Overview
 ![My animated logo](./public/img/overview.png)
 
@@ -99,7 +122,7 @@ Overview2
 
 ## Google Drive Video
 
-https://notetakerhrk.herokuapp.com
+
 
 
 ## Conclusion 
